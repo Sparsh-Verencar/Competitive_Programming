@@ -1,6 +1,6 @@
 /*
 
-pattern11:
+pattern12:
 *
 **
 ***
