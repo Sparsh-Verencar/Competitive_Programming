@@ -1,6 +1,6 @@
 /*
 
-pattern:
+pattern10:
 ABCDCBA
 ABC CBA
 AB   BA
@@ -8,6 +8,7 @@ A     A
 
 */
 
+/*
 #include <iostream>
 using namespace std;
 
@@ -35,3 +36,4 @@ int main()
 
     return 0;
 }
+ */
