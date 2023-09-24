@@ -1,18 +1,16 @@
 /*
 
 pattern13:
-*
-**
-***
-****
-***
-**
-*
+   1   
+  232  
+ 34543 
+4567654
 
 */
 
-/* 
-#include <iostream>
+
+/*
+ #include <iostream>
 using namespace std;
 
 int main()
