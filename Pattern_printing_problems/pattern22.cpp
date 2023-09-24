@@ -1,17 +1,19 @@
 
 
-/*pattern20
-   A1   
-  AB12
- ABC123
-ABCD1234
+/*pattern22
+   1   
+  12A
+ 123AB
+1234ABC
 */
 
 
 
  
-/*
- #include <iostream>
+
+ 
+/* 
+#include <iostream>
 using namespace std;
 
 int main()
@@ -21,23 +23,24 @@ int main()
     int letter;
     for (int i = 1; i <= 4; i++)
     {
-        letter = 65;
         num = 1;
-        for (int j = 1; j <= 8; j++)
+        letter = 65;
+        for (int j = 1; j <= 7; j++)
         {
             
-            if (j >= 4-k && j <= 5 + k)
+            if (j >= 4-k && j <= 4 + k)
             {
                 if(j<=4)
-                {
-                    cout << (char)letter;
-                    letter++;
-                }
-                else
                 {
                     cout<<num;
                     num++;
                 }
+                else
+                {
+                    cout << (char)letter;
+                    letter++;
+                }
+                
             }
             else
                 cout << " ";
@@ -46,8 +49,9 @@ int main()
         k++;
     }
     return 0;
-}  
- */
+}   
+*/
+
 
 
 
