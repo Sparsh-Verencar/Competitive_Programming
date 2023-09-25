@@ -1,10 +1,11 @@
 
 
 /*pattern28
-   1   
-  212
- 32123
-4321234
+1        
+3*3
+4*4*4
+8*8*8*8
+9*9*9*9*9
 
 */
 
@@ -21,21 +22,37 @@ using namespace std;
 int main()
 {
     int k = 0;
-   for (int i = 1; i <= 4; i++)
+    int num =0;
+   for (int i = 1; i <= 5; i++)
     {
-        k = i;
-        for (int j = 1; j <= 7; j++)
+        if(i%2==1)
+        {
+            num = num+1;
+        }
+        else
+        {
+            num = num+i;
+        }
+        for (int j = 1; j <= 9; j++)
         {
             
-            if (j>=5-i && j<=3+i)
+            if (j<=i+k)
              {
-                cout << k;
-                j<4?k--:k++;
+                if(j%2==0)
+                    cout << "*";
+                else
+                    {
+                        
+                    cout << num;
+                    }
+
              }
+            
             else
                 cout << " ";
         }
         cout << endl;
+        k++;
     }
     return 0;
 }    
